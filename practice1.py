@@ -19,8 +19,8 @@ class MyGUI:
     def __init__(self):
         # Create the main window.
         self.main_window = tkinter.Tk()
-        self.main_window.geometry('300x300') # 1 - change size of window
-        self.main_window.title("Breakfast Diner Delivery App Order") # 2 - change title
+        self.main_window.geometry('450x300') # 1 - change size of window
+        self.main_window.title("Breakfast Diner Delivery App") # 2 - change title
 
 
         self.top_frame = tkinter.Frame(self.main_window)
